@@ -1,0 +1,14 @@
+<suite name="suites" parallel="tests" thread-count="2">
+    <test name="chrometest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="Lab8Examples.FactorialTestcases"/>
+        </classes>
+    </test>
+    <test name="edgetest">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="Lab8Examples.FactorialTestcases"/>
+        </classes>
+    </test>
+</suite>
